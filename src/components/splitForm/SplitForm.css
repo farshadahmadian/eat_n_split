@@ -1,0 +1,30 @@
+.split-form {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  background-color: var(--color-lightest);
+  border-radius: 1rem;
+  row-gap: 1.4rem;
+  padding: 4rem 6rem;
+}
+
+.split-header {
+  grid-column: 1 / -1;
+  margin-bottom: 4rem;
+}
+
+.split-input {
+  width: 80%;
+  justify-self: right;
+}
+
+.input {
+  border: none;
+  border-radius: 0.4rem;
+  padding: 0.4rem;
+}
+
+.btn-split {
+  grid-column: 2;
+  width: 80%;
+  justify-self: right;
+}

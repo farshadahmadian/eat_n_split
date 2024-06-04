@@ -1,0 +1,8 @@
+.friends-list {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  list-style-type: none;
+  border: 2px solid var(--color-lightest);
+  border-radius: 1rem;
+}

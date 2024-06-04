@@ -1,0 +1,42 @@
+.friend-form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.btn-add-friend,
+.btn-close {
+  width: 14rem;
+  margin: 0 auto;
+}
+
+.friend-form {
+  border-radius: 1rem;
+  background-color: var(--color-lightest);
+  padding: 1rem 0;
+}
+
+.friend-input-container,
+.friend {
+  margin: 2rem 4rem;
+}
+
+.friend-input-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 1rem;
+  padding: 1rem 0;
+}
+
+.friend-form input {
+  display: inline-block;
+  justify-self: right;
+  width: 80%;
+}
+
+.btn-add {
+  margin-top: 1rem;
+  grid-column: 2;
+  width: 80%;
+  justify-self: right;
+}

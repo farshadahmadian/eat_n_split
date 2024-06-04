@@ -1,0 +1,49 @@
+.friend-container:hover {
+  background-color: var(--color-lightest);
+}
+
+.selected {
+  background-color: var(--color-lightest);
+}
+
+.friend {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  column-gap: 1.2rem;
+  align-items: center;
+}
+
+.friend-image-container {
+  width: 6rem;
+}
+
+.friend-image {
+  width: 100%;
+  border-radius: 100%;
+}
+
+.balance-negative {
+  color: var(--color-red);
+}
+
+.balance-positive {
+  color: var(--color-green);
+}
+
+.btn {
+  background-color: var(--color-dark);
+  border: none;
+  padding: 0.8rem 1rem;
+  border-radius: 0.6rem;
+  color: #fff;
+}
+
+.btn-friend {
+  width: 6rem;
+  text-align: center;
+}
+
+.btn:hover {
+  background-color: var(--color-medium);
+  cursor: pointer;
+}
