@@ -82,6 +82,7 @@ function App() {
       </div>
       {selectedFriend && (
         <SplitForm
+          key={selectedFriend.id}
           selectedFriend={selectedFriend}
           className="right"
           onSplit={handleSplit}
